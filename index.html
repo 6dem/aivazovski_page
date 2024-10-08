@@ -148,6 +148,15 @@
             </p>
         </div>
     </footer>
+
+    <script>
+        document.querySelectorAll('.burger-nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('burger-checkbox-id').checked = false;
+            });
+        });
+    </script>
+
 </body>
 
 </html>
